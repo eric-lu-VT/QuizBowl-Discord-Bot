@@ -17,14 +17,17 @@ The following are the steps to take to set this bot up yourself:
 
 ### Part 1: Discord Bot
 1) Download the repository and save it wherever you plan on hosting the bot.
-2) Go to the [Discord Developer Console](https://discord.com/developers/applications) and click "New application".
-3) On the left sidebar, select "Bot".
-4) Click "Add Bot"
-5) Press "Click to Reveal Token" and copy the listed token.
-6) Go to ```Bot.java``` and paste the token from Step 5) in place of ```[YOUR BOT TOKEN HERE]```.
-7) On the left sidebar, select "OAuth2".
-8) Under "Scopes", check off "bot".
-9) Under "Bot permissions", select the permissions you wish to give the bot.
+   - Make sure your directory stuff is correct.
+      - Gradle should reconfigure most of the directory stuff for you, but you should check the ```build.gradle``` file to make sure it is pointing stuff in the right direction.
+      - In line 32 of ```Bot.java```, make sure that the file paths for ```jniLocation:```, ```porcupineLocation:```, ```porcupineParams:```, and ```...wakePhrasePaths:``` are correct specific to your directories.
+3) Go to the [Discord Developer Console](https://discord.com/developers/applications) and click "New application".
+4) On the left sidebar, select "Bot".
+5) Click "Add Bot"
+6) Press "Click to Reveal Token" and copy the listed token.
+7) Go to ```Bot.java``` and paste the token from Step 5) in place of ```[YOUR BOT TOKEN HERE]```.
+8) On the left sidebar, select "OAuth2".
+9) Under "Scopes", check off "bot".
+10) Under "Bot permissions", select the permissions you wish to give the bot.
    - At minimum, you will need to give the bot the following permissions:
      - ```Connect```
      - ```Speak```
@@ -32,7 +35,7 @@ The following are the steps to take to set this bot up yourself:
      - ```Send Messages```
      - ```Read Message History```
    - Alternatively, you can give the bot ```Administrator``` and be done with it, although depending on the server you might not want to or be allowed to do so.
-10) After Step 9), Discord will auto generate a link to you. Go to that address. From there, you will be able to select which server you'd like to add the bot to.
+11) After Step 9), Discord will auto generate a link to you. Go to that address. From there, you will be able to select which server you'd like to add the bot to.
     - I recommend setting up a new private server to set up the bot up on before implementing it on a different server, for reasons revealed in the next step...
       - To do so, press the green plus button on the left sidebar on the normal Discord window (```Add a server```), then click ```Create a server```, input whatever server name you want and then finally click ```Create```.
 
