@@ -30,15 +30,15 @@ public class Bot extends ListenerAdapter implements VocalCord.Callbacks {
     private ArrayDeque<Question> bonus = null;
 
     private final VocalCord cord = VocalCord.newConfig(this).withWakeDetection
-            ("C:\\Users\\ericl\\Documents\\Programming Projects\\Discord Bot - QuizBowl 4.0\\native\\linux\\libjni_porcupine.dll",
-                    "C:\\Users\\ericl\\Documents\\Programming Projects\\Discord Bot - QuizBowl 4.0\\native\\linux\\libpv_porcupine.dll",
-                    "C:\\Users\\ericl\\Documents\\Programming Projects\\Discord Bot - QuizBowl 4.0\\native\\porcupine_params.pv",
+            ("C:\\Users\\abcde\\Documents\\Programming Projects\\Discord Bot - QuizBowl 4.0\\native\\linux\\libjni_porcupine.dll",
+                    "C:\\Users\\abcde\\Documents\\Programming Projects\\Discord Bot - QuizBowl 4.0\\native\\linux\\libpv_porcupine.dll",
+                    "C:\\Users\\abcde\\Documents\\Programming Projects\\Discord Bot - QuizBowl 4.0\\native\\porcupine_params.pv",
                     0.5f,
-                    "C:\\Users\\ericl\\Documents\\Programming Projects\\Discord Bot - QuizBowl 4.0\\native\\wake_phrase.ppn").withTTS
+                    "C:\\Users\\abcde\\Documents\\Programming Projects\\Discord Bot - QuizBowl 4.0\\native\\wake_phrase.ppn").withTTS
             (SsmlVoiceGender.MALE, true).build();
 
     public static void main(String[] args) throws Exception {
-        JDA jda = JDABuilder.createDefault("NzM0ODc3NjU3Nzc0MTYxOTky.XxYGew.txWQU8PbooEwkBrplCOYfX9kaPI").build();
+        JDA jda = JDABuilder.createDefault("[YOUR BOT TOKEN HERE]").build();
         jda.getPresence().setStatus(OnlineStatus.IDLE);
         jda.getPresence().setActivity(Activity.watching("QUIZBOWL!!!"));
         jda.addEventListener(new Bot());
