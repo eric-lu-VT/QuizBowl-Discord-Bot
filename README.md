@@ -7,10 +7,15 @@ insert video
 # What is Quiz Bowl?
 
 # Commands
+- ```$ping```: Checks the bot's response time to Discord.
+- ```$help```: Brings up the list of the bot's commands.
+- ```$init [filePath]```: Attempts to initiate new round, if there is none in progress, by loading in the packet at the requested file path.
+- ```$nexttoss```: Plays the next tossup question, if able to.
+- ```$nextbonus```: Plays the next bonus question, if able to.
+- ```$buzz```: Stops the question reading and readies the bot to accept an answer. The bot will accept an answer either verbally by saying "answer" followed by your answer, or by typing your answer in the chat with the '$answer' command.
+- ```$answer [answer]```: Typing option to answer the question, if able to.
 
-Commands avaiable to everyone:
-
-# Installation
+# Installation & Usage
 Currently, this is a self-hosted bot — meaning you will need to host and maintain your own instance of it. (Perhaps later, I will maintain a public version of this bot.)
 
 The following are the steps to take to set this bot up yourself:
@@ -51,6 +56,10 @@ This part of the guide is copied over from [widavies](https://github.com/widavie
 7) On Windows, open the start menu and search "Edit the system environment variables". Click "Environment Variables" and under System Variables, click "New".
    - For "Variable name", enter ```GOOGLE_APPLICATION_CREDENTIALS```.
    - For "Variable value", enter the path to your Google Credentials JSON, for example: ```C:\Users\abcde\Documents\Programming Projects\API.json```. It does not matter where you put this .json file on your system, as long as the PATH points correctly to it.
+
+### Part 3: Using the Bot
+
+To do
 
 # Limitations
 - The single biggest limitation is that VocalCord does not seem to handle multithreading very well. Essentially what that means is that when the bot is outputting text-to-speech, it cannot be interrupted without stopping the process (ie, the thread) entirely. Once that is done, you can't go back to where you left off in the thread.
