@@ -15,7 +15,7 @@ Currently, this is a self-hosted bot — meaning you will need to host and maint
 
 The following are the steps to take to set this bot up yourself:
 
-##Part 1: Discord Bot
+### Part 1: Discord Bot
 1) Download the repository and save it wherever you plan on hosting the bot.
 2) Go to the [Discord Developer Console](https://discord.com/developers/applications) and click "New application".
 3) On the left sidebar, select "Bot".
@@ -36,7 +36,7 @@ The following are the steps to take to set this bot up yourself:
     - I recommend setting up a new private server to set up the bot up on before implementing it on a different server, for reasons revealed in the next step...
       - To do so, press the green plus button on the left sidebar on the normal Discord window (```Add a server```), then click ```Create a server```, input whatever server name you want and then finally click ```Create```.
 
-##Part 2: Google APIs
+### Part 2: Google APIs
 This part of the guide is copied over from [widavies](https://github.com/widavies)' [VocalCord API](https://github.com/widavies/VocalCord) page on GitHub. 
 
 1) Navigate to the [Google Cloud Console](https://console.cloud.google.com/) website.
