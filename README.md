@@ -46,8 +46,8 @@ This part of the guide is copied over from [widavies](https://github.com/widavie
 5) Search for and enable ```Cloud Speech-to-Text API``` and ```Cloud Text-to-Speech API```.
 6) On the left sidebar, select "Credentials", then under "Service Accounts", selected "Manage service accounts". Give your service account a name, and everything at its default. You will need to click the "Create Key" button, make sure JSON is selected, and hit "Create". This will download a JSON file. This is your credentials for using Google APIs, keep it secret! Save it to a location where you will remember where it is.
 7) On Windows, open the start menu and search "Edit the system environment variables". Click "Environment Variables" and under System Variables, click "New".
-  - For "Variable name", enter ```GOOGLE_APPLICATION_CREDENTIALS```.
-  - For "Variable value", enter the path to your Google Credentials JSON, for example: ```C:\Users\abcde\Documents\Programming Projects\API.json```. It does not matter where you put this .json file on your system, as long as the PATH points correctly to it.
+- For "Variable name", enter ```GOOGLE_APPLICATION_CREDENTIALS```.
+- For "Variable value", enter the path to your Google Credentials JSON, for example: ```C:\Users\abcde\Documents\Programming Projects\API.json```. It does not matter where you put this .json file on your system, as long as the PATH points correctly to it.
 
 # Limitations
 - The single biggest limitation is that VocalCord does not seem to handle multithreading very well. Essentially what that means is that when the bot is outputting text-to-speech, it cannot be interrupted without stopping the process (ie, the thread) entirely. Once that is done, you can't go back to where you left off in the thread.
