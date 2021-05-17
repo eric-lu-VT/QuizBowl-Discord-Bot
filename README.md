@@ -65,7 +65,7 @@ This part of the guide is copied over from [widavies](https://github.com/widavie
 4) From here, you are ready to use the bot.
    - Use ```$nexttoss``` to play the next tossup question in the packet, or ```$nextbonus``` to play the next bonus question in the packet.
    - When you are ready to answer, enter ```$buzz``` in order for the bot to prompt you for your answer.
-   - You can answer either by verbally stating "answer" ([your answer]) unmuted in the voice channel, or by typing your answer in the chat with ```$answer [answer]```.
+   - You can answer either by verbally stating "answer" ([your answer]) while unmuted in the voice channel, or by typing your answer in the chat with ```$answer [answer]```.
 
 
 # Limitations
