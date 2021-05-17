@@ -58,7 +58,7 @@ This part of the guide is copied over from [widavies](https://github.com/widavie
 
 ### Part 3: Using the Bot
 
-1) Download a Quiz Bowl packet as a PDF. I personally find my packets on [quizbowlpackets.com](https://quizbowlpackets.com/); I'm sure you can find other sources online as well.
+1) Download a Quiz Bowl packet as a PDF. (I personally find my packets on [quizbowlpackets.com](https://quizbowlpackets.com/); I'm sure you can find other sources online as well.)
 2) Copy the file location of the PDF you just downloaded (it will be something like ```C:\Users\abcde\Downloads\Packet 01```.)
 3) In the Discord server with the bot added to it, join a voice channel and call ```$init [filePath]```, with the file location in the previous step being added in place of ```[filePath]```.
 4) From here, you are ready to use the bot.
