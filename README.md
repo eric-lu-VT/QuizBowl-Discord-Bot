@@ -33,7 +33,7 @@ The following are the steps to take to set this bot up yourself:
 8) On the left sidebar, select "OAuth2".
 9) Under "Scopes", check off "bot".
 10) Under "Bot permissions", select the permissions you wish to give the bot.
-   - At minimum, you will need to give the bot the following permissions:
+    - At minimum, you will need to give the bot the following permissions:
       - ```Connect```
       - ```Speak```
       - ```Use Voice Activity```
