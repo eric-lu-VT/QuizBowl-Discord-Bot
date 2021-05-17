@@ -59,7 +59,14 @@ This part of the guide is copied over from [widavies](https://github.com/widavie
 
 ### Part 3: Using the Bot
 
-To do
+1) Download a Quiz Bowl packet as a PDF. I personally find my packets on [quizbowlpackets.com](https://quizbowlpackets.com/); I'm sure you can find other sources online as well.
+2) Copy the file location of the PDF you just downloaded (it will be something like ```C:\Users\abcde\Downloads\Packet 01```.)
+3) In the Discord server with the bot added to it, join a voice channel and call ```$init [filePath]```, with the file location in the previous step being added in place of ```[filePath]```.
+4) From here, you are ready to use the bot.
+   - Use ```$nexttoss``` to play the next tossup question in the packet, or ```$nextbonus``` to play the next bonus question in the packet.
+   - When you are ready to answer, enter ```$buzz``` in order for the bot to prompt you for your answer.
+   - You can answer either by verbally stating "answer" ([your answer]) unmuted in the voice channel, or by typing your answer in the chat with ```$answer [answer]```.
+
 
 # Limitations
 - The single biggest limitation is that VocalCord does not seem to handle multithreading very well. Essentially what that means is that when the bot is outputting text-to-speech, it cannot be interrupted without stopping the process (ie, the thread) entirely. Once that is done, you can't go back to where you left off in the thread.
