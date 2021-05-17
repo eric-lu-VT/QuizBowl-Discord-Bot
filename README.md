@@ -71,13 +71,13 @@ This part of the guide is copied over from [widavies](https://github.com/widavie
 - The single biggest limitation is that VocalCord does not seem to handle multithreading very well. Essentially what that means is that when the bot is outputting text-to-speech, it cannot be interrupted without stopping the process (ie, the thread) entirely. Once that is done, you can't go back to where you left off in the thread.
   - This makes implementing multiplayer very difficult.
   - This also makes it hard to support more than one instance of the ```Bot``` at a time (which means that it can only handle requests from one server at a time.)
-- There are no bonuses, and negs always apply (even if the question has been finished reading.)
+- There are no powers, and negs always apply (even if the question has been finished reading.)
 - Currently, you have to host the PDF from your local server.
 
 # Roadmap
 Upcoming features/changes (hopefully):
 - Implement loading Scholar's Bowl packets into the bot directly from website URL, rather than having to download the PDF onto your local machine.
-- Fix scoring (add bonuses & fix negs.)
+- Fix scoring (add powers & fix negs.)
 - Add more comments to ```Bot.java```.
 - Host a version of this bot myself.
 
