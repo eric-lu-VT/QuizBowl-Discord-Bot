@@ -14,6 +14,9 @@ insert video
 - ```$nextbonus```: Plays the next bonus question, if able to.
 - ```$buzz```: Stops the question reading and readies the bot to accept an answer. The bot will accept an answer either verbally by saying "answer" followed by your answer, or by typing your answer in the chat with the '$answer' command.
 - ```$answer [answer]```: Typing option to answer the question, if able to.
+- ```$reset```: Resets all settings, clears the question bank, and disconnects the bot from the voice channel.
+- ```$score```: Displays your score. (+10 for every right answer, -5 for every incorrect answer.)
+- ```$shutdown```: Disconnects the bot from Discord entirely and shuts down its processes.
 
 # Installation & Usage
 Currently, this is a self-hosted bot — meaning you will need to host and maintain your own instance of it. (Perhaps later, I will maintain a public version of this bot.)
