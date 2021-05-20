@@ -2,7 +2,8 @@
 A single player simulation of the high school question-and-answer academic competition "Quiz Bowl" (also known as "Scholar's Bowl") using a Discord bot and Google text-to-speech and speech-to-text services.
 
 # Impressions
-insert video
+
+[![Watch the video](https://img.youtube.com/vi/uLypRiS8Bpw/maxresdefault.jpg)](https://youtu.be/uLypRiS8Bpw)
 
 # What is Quiz Bowl?
 
