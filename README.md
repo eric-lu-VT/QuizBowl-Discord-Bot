@@ -3,6 +3,7 @@ A single player simulation of the high school question-and-answer academic compe
 
 # Impressions
 
+Click the video to watch it!
 [![Watch the video](https://img.youtube.com/vi/uLypRiS8Bpw/hqdefault.jpg)](https://www.youtube.com/watch?v=uLypRiS8Bpw)
 
 # What is Quiz Bowl?
