@@ -7,8 +7,6 @@ A single player simulation of the high school question-and-answer academic compe
 
 Click the video to watch it!
 
-# What is Quiz Bowl?
-
 # Commands
 - ```$ping```: Checks the bot's response time to Discord.
 - ```$help```: Brings up the list of the bot's commands.
