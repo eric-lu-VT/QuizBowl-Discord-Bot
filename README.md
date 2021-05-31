@@ -80,6 +80,7 @@ This part of the guide is copied over from [widavies](https://github.com/widavie
 
 # Roadmap
 Upcoming features/changes (hopefully):
+- Discord has recently added new fancy button options, which I think I want to implement in this program.
 - Implement loading Scholar's Bowl packets into the bot directly from website URL, rather than having to download the PDF onto your local machine.
 - Fix scoring (add powers & fix negs.)
 - Add more comments to ```Bot.java```.
