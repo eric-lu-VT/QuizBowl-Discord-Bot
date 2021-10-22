@@ -44,7 +44,7 @@ The following are the steps to take to set this bot up yourself:
       - ```Send Messages```
       - ```Read Message History```
     - Alternatively, you can give the bot ```Administrator``` and be done with it, although depending on the server you might not want to or be allowed to do so.
-11) After Step 10), Discord will auto generate a link to you. Go to that address. From there, you will be able to select which server you'd like to add the bot to.
+11) After Step 9), Discord will auto generate a link to you. Go to that address. From there, you will be able to select which server you'd like to add the bot to.
     - To create a brand new server to add the bot to, press the green plus button on the left sidebar on the normal Discord window (```Add a server```), then click ```Create a server```, input whatever server name you want and then finally click ```Create```.
 
 ### Part 2: Google APIs
